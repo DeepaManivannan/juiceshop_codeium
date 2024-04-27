@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepa Juice World</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Deepa Juice World</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <button>Contact Us</button>
+    </nav>
+</header>
+
+<section>
+    <h2>Welcome to Deepa Juice World</h2>
+    <div>
+        <img src="juice_image.jpg" alt="Juice Image" style="width: 100%;">
+        <p>Description of the juice goes here. Include details about the ingredients and benefits.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Order Your Favorite Juice</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="juice">Select Juice:</label>
+        <select id="juice" name="juice">
+            <option value="orange">Orange Juice</option>
+            <option value="apple">Apple Juice</option>
+            <option value="carrot">Carrot Juice</option>
+        </select><br><br>
+        <button type="submit">Submit Order</button>
+    </form>
+</section>
+
+<footer>
+    <p>Follow us on social media:</p>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+</footer>
+
+</body>
+</html>
